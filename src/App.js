@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          본민아 보여? <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header>
+        <nav>
+            <a href="#">홈</a>
+            <a href="#">헬스장찾기</a>
+            <a href="#">마이페이지</a>
+            <a href="#">로그아웃</a>
+        </nav>
+    </header>
   );
 }
 
